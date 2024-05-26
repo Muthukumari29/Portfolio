@@ -7,6 +7,150 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <title>Document</title>
+    <style>
+        .myskills{
+        
+            margin-left: 350px;
+        width: 50%;
+     margin-top: 70px;
+        }
+        a{
+            color: #ddd;
+        }
+        .home{
+            display: flex;
+            justify-content: end;
+            margin: 5px;
+        }
+        h1{
+        
+            color: aliceblue;
+            text-align: center;
+        }
+        .con1{
+            display: flex;
+        }
+        .git{
+            margin-left: 50px;
+            margin-top: 40px;
+            
+        }
+        h2{
+            color: aliceblue;
+        margin-left: 300px;
+        margin-top: 50px;
+           
+        }
+        .im1{
+            width: 70px;
+            height: 10px;
+            margin:25px  ;
+        }
+    
+        .im2{
+            width: 70px;
+            height: 10px;
+            margin:25px  ;
+        }
+    
+        .im3{
+            width: 70px;
+            height: 10px;
+            margin:25px;
+        }
+    
+        .im4{
+            width: 70px;
+            height: 10px;
+            margin:25px;
+        }
+        .s1{
+            
+            display: flex;
+            justify-content: center;
+        }
+    
+          .s2{   
+        display: flex;
+            justify-content: center;
+        }
+    
+    
+        .s3{   
+        display: flex;
+            justify-content: center;
+        }
+    
+        .s4{   
+        display: flex;
+            justify-content: center;
+        }
+        .container{
+            margin: 30px;
+            width: 50%;
+            background-color: #ddd;
+        }
+        .skils{
+            text-align: right;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+        }
+        .html{
+            width: 0%;
+            background-color:rgb(12, 113, 245);
+            animation: html 20s forwards;
+            }
+        @keyframes html{
+            to{
+                width: 90%;
+            }
+        }
+    
+        .css{
+            width: 0%;
+            background-color:rgb(12, 113, 245);
+            animation: css 20s forwards;
+            }
+        @keyframes css{
+            to{
+                width: 60%;
+            }
+        }
+    
+    
+        .tailwind{
+            width: 0%;
+            background-color: rgb(12, 113, 245);
+            animation: tailwind 20s forwards;
+            }
+        @keyframes tailwind{
+            to{
+                width: 75%;
+            }
+        }
+    
+    
+        .js{
+            width: 0%;
+            background-color:rgb(12, 113, 245);
+            animation: js 20s forwards;
+            }
+        @keyframes js{
+            to{
+                width: 50%;
+            }
+        }
+    @media only screen and (max-width:750px){
+        .myskills{
+            margin: 0 5% ;
+            width: 80%;
+            margin-top: 200px;
+        }
+    }
+    </style>
+    
+    
 </head>
 <body class="w-full bg-[url('././background1.jpg')]">
     <div class="text-white">
@@ -48,6 +192,91 @@
     </div></div>
 
 </div>
+
+
+
+<!-- skills -->
+<div id="skills" class="myskills mt-[50px] ">
+    <h1 class="text-4xl">MY SKILLS</h1>
+<div class="s1">
+<p class="im1 mt-[35px]"><img src="./../picture/htmllogo.jpg"> </p>
+<div class="container">
+<div class="skils html">90%</div>
+</div></div>
+
+<div class="s2">
+<p class="im2"><img src="./../picture/csslogo.jpg"> </p>
+<div class="container " >
+<div class="skils css">60%</div>
+</div></div>
+
+<div class="s3">
+<p class="im3"><img src="./../picture/win1.jpg"> </p>
+<div class="container">
+<div class="skils tailwind">75%</div>
+</div></div>
+
+<div class="s4">
+<p class="im4"><img src="./../picture/jslogo.jpg"> </p>
+<div class="container">
+<div class="skils js">50%</div>
+</div></div>
+
+<div class="con1">
+<h2 class="text-3xl mt-[20px]">OTHERS</h2>
+<div class="git"><img src="./../picture/gitlogo.jpg"></div>
+</div>
+</div>
+
+<!-- ---PROJECT-- -->
+<div id="project" class=" mt-[100px]">
+    <h1 class="flex justify-center text-2xl lg:text-5xl mt-[20px] text-white" >
+        PROJECTS
+    </h1>
+    <p class="flex justify-center ml-[10px] mt-[20px] text-2xl text-white">View all the web development related projects and respositories</p>
+    <div class="content-center flex flex-wrap justify-center  text-black mt-[10%] gap-[50px]">
+    <div class="bg-gray-300 rounded-xl  w-[250px] p-[20px]  text-center">
+        <div><img src="./../picture/Screenshot (209).png"></div>
+        <div class="text-4xl">Task1</div>
+        <p class="bg-blue-500 rounded-xl  font-bold p-[10px] text-center mt-[20px]" id="demo"></p>
+    </div>
+    <div class="bg-gray-300 rounded-xl w-[250px] p-[20px]  text-center">
+        <div><img src="./../picture/Screenshot (211).png"></div>
+        <div class="text-4xl">Task2</div>
+        <p class="bg-blue-500 rounded-xl  font-bold p-[10px] text-center  mt-[20px]" id="demo2"></p>
+    </div>
+    <div class="bg-gray-300 rounded-xl  w-[250px] p-[20px] text-center">
+        <div><img src="./../picture/Screenshot (213).png"></div>
+        <div class="text-4xl">Task3</div>
+        <p class="bg-blue-500 rounded-xl  font-bold p-[10px] text-center mt-[20px]" id="demo3"></p>
+    </div>
+    <div class="bg-gray-300 rounded-xl  w-[250px] p-[20px] text-center">
+        <div><img src="./../picture/Screenshot (212).png"></div>
+        <div class="text-4xl ">Task4</div>
+        <p class="bg-blue-500 rounded-xl  font-bold p-[10px] text-center mt-[20px]" id="demo4"></p>
+    </div>
+    
+</div></div>
+
+<script>
+let text="Click here"
+let result=text.link("https://muthukumari29.github.io/Flipkart/")
+document.getElementById("demo").innerHTML=result;
+
+let text1="Click here"
+let result1=text.link("https://muthukumari29.github.io/ZERODHA/")
+document.getElementById("demo2").innerHTML=result1;
+
+let text3="Click here"
+let result3=text.link("https://muthukumari29.github.io/paytm/pay.html")
+document.getElementById("demo3").innerHTML=result3;
+
+let text4="Click here"
+let result4=text.link("https://muthukumari29.github.io/Payout/")
+document.getElementById("demo4").innerHTML=result4;
+
+</script>
+
 
 
 </body>
