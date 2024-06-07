@@ -8,9 +8,19 @@
 
     <title>Document</title>
     <style>
+        #ani{
+        color: #fff;
+        overflow:hidden;
+        white-space: nowrap;
+        animation: type 1.5s steps(30,end)
+    }
+@keyframes type{
+    from{width:0}
+    to{width:100%}
+}
         .myskills{
         
-            margin-left: 350px;
+            margin-left: 25%;
         width: 50%;
      margin-top: 70px;
         }
@@ -169,7 +179,7 @@
     <div class="flex  justify-center mt-[200px] md:mt-[200px]">
     
         <div class=" ml-[30px] md:mt-[50px]">
-        <div  class="text-4xl lg:text-7xl">Welcome to my portfolio!</div>
+        <div id="ani" class="text-4xl lg:text-7xl">Welcome to my portfolio!</div>
     <p  class="text-2xl lg:text-5xl">I'm Muthu Kumari</p>
 <p class="text-2xl lg:text-4xl">a Frontend Developer</p>
 </div>
@@ -197,7 +207,7 @@
 
 <!-- skills -->
 <section>
-<div id="skills" class="myskills mt-[50px] ">
+<div id="skills" class="myskills md:mt-[350px]  lg:mt-[100px]">
     <h1 class="text-4xl">MY SKILLS</h1>
 <div class="s1">
 <p class="im1 mt-[35px]"><img src="./picture/htmllogo.jpg"> </p>
@@ -239,22 +249,22 @@
     <p class="flex justify-center ml-[10px] mt-[20px] text-2xl text-white">View all the web development related projects and respositories</p>
     <div class="content-center flex flex-wrap justify-center  text-black mt-[10%] gap-[50px]">
     <div class="bg-gray-300 rounded-xl  w-[250px] p-[20px]  text-center">
-        <div><img src="./../picture/Screenshot (209).png"></div>
+        <div><img src="./picture/Screenshot (209).png"></div>
         <div class="text-4xl">Task1</div>
         <p class="bg-blue-500 rounded-xl  font-bold p-[10px] text-center mt-[20px]" id="demo"></p>
     </div>
     <div class="bg-gray-300 rounded-xl w-[250px] p-[20px]  text-center">
-        <div><img src="./../picture/Screenshot (211).png"></div>
+        <div><img src="./picture/Screenshot (211).png"></div>
         <div class="text-4xl">Task2</div>
         <p class="bg-blue-500 rounded-xl  font-bold p-[10px] text-center  mt-[20px]" id="demo2"></p>
     </div>
     <div class="bg-gray-300 rounded-xl  w-[250px] p-[20px] text-center">
-        <div><img src="./../picture/Screenshot (213).png"></div>
+        <div><img src="./picture/Screenshot (213).png"></div>
         <div class="text-4xl">Task3</div>
         <p class="bg-blue-500 rounded-xl  font-bold p-[10px] text-center mt-[20px]" id="demo3"></p>
     </div>
     <div class="bg-gray-300 rounded-xl  w-[250px] p-[20px] text-center">
-        <div><img src="./../picture/Screenshot (212).png"></div>
+        <div><img src="./picture/Screenshot (212).png"></div>
         <div class="text-4xl ">Task4</div>
         <p class="bg-blue-500 rounded-xl  font-bold p-[10px] text-center mt-[20px]" id="demo4"></p>
     </div>
